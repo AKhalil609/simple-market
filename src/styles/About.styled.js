@@ -8,6 +8,7 @@ export const AboutContainer = styled.div`
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    overflow: auto;
 `;
 
 export const Title = styled.h1`
@@ -31,7 +32,6 @@ export const TitleContainer = styled.div`
 `;
 
 export const DescContainer = styled.div`
-    padding: 15px 10px;
     background: rgb(95 100 95 / 10%);
     color: #fff;
     width: 100%;

@@ -6,6 +6,7 @@ export const HomeContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: auto;
 `;
 
 export const MainTitle = styled.h1`
